@@ -3,14 +3,14 @@ Meta Front End Developer Professional Certificate
 
 a. Introduction to Front-End Development
 
-[Licenses & certifications](https://coursera.org/share/f2736ef4a4ec105b82438fd02fd252b7)
+[Licenses & certifications](https://www.coursera.org/account/accomplishments/certificate/VRWTN446XDHB)
 
 b. Programming with JavaScript
 
-[Licenses & certifications](https://coursera.org/share/0376663ee92fce364977199394eda1ea)
+[Licenses & certifications](https://www.coursera.org/account/accomplishments/certificate/7VKLXVJSA5QQ)
 
 c. Version Control
 
-[Licenses & certifications](https://coursera.org/share/ee757c62ccb803256090dc9b046b9d98)
+[Licenses & certifications](https://www.coursera.org/account/accomplishments/certificate/NMF6HRZY6RNH)
 
 
