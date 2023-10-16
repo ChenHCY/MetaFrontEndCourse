@@ -1,0 +1,66 @@
+/* Properties for other selectors */
+*{
+    font-family: Monaco;
+}
+
+.menu, .ll{
+    text-align: center;
+    color:#FA9F42;
+}
+
+.ll{
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #495E57;
+}
+
+.menu-container {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    background-color:#E0E0E2;
+}
+
+
+/* Add rules for the steps mentioned below */
+.section {
+  padding: 10px; /*内部间距*/
+}
+
+.label {
+  font-weight: bold; /*加粗标签文字*/
+}
+
+.description {
+  font-style: italic;  /*改字体*/
+  border-top: 2px solid #495e57; /*添加上部边框，下划线的效果*/
+}
+
+.item-name {
+  margin: 25px; /*扩大外部间距*/
+  font-size: 12px; /*缩小字体*/
+}
+
+b {
+  float: right; /*价格靠右对齐*/
+  margin-top: -15px; /*缩小外部间距*/
+  color: darkcyan;
+}
+
+div > h3 { /*选择 div中的 直接子元素 h3*/
+  font-size: 20px; /*改变字体大小*/
+  margin: 20px; /*间距，上下左右都有*/
+  text-align: center; /*区域居中*/
+  color: #495e57;
+}
+
+.label + .low { /*选择label后面的low元素 属性*/
+  color: brown;
+}
+
+div ~ div { /*给定一个区域，改变当中所有的元素属性*/
+  color: rgb(90, 90, 90);
+}
+
+
+
