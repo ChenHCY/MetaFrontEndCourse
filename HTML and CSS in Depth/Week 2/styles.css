@@ -1,0 +1,65 @@
+
+/* Add code for container class below */
+.container {
+    /* Add rules here */
+    display: grid;
+    /* It will have a maximum width of 900 pixels.*/
+    max-width: 900px;
+    /*The minimum height for it will be the length of 50 viewport height*/
+    min-height: 50vh;
+    /*定义每一列的  列宽*/
+    grid-template-columns: 100%;
+    /*定义每一行的  行高*/
+    grid-template-rows: auto auto 1fr auto auto;
+    /*定义区域划分的名字  */
+    grid-template-areas: "header" "left" "main" "right" "footer";
+}
+/* Add media rules for container class below */
+@media (min-width: 440px) {
+    .container {
+    /* Add rules here */
+      /*当屏幕缩小时，定义每一列的  列宽*/
+      grid-template-columns: 150px 1fr 150px;
+      /*当屏幕缩小时，定义每一行的  行高*/
+      grid-template-rows: auto 1fr auto;
+      /*当屏幕缩小时，定义区域划分的名字*/
+      grid-template-areas: "header header header" "left main right" "footer footer footer";
+    }
+}
+
+
+/* Properties for other selectors */
+.header {
+    grid-area: header;
+    padding: 10px;
+    background-color:black;
+    color: #fff;
+    text-align: center;
+}
+  
+.main {
+    grid-area: main;
+    padding: 25px;
+}
+  
+.left {
+    grid-area: left;
+    background-color: peachpuff;
+  }
+  
+.right {
+    grid-area: right;
+  }
+  
+.footer {
+    grid-area: footer;
+    padding: 10px;
+    background-color:black;
+    color: #fff;
+    text-align: center;
+  }
+  
+.sidebar {
+    padding: 25px;
+    background-color:darkcyan;
+  }
