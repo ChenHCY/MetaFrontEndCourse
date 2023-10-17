@@ -8,24 +8,23 @@ Launch your career as a front-end developer.
 
 · Learn Bootstrap CSS Framework to create webpages and work with GitHub repositories and version control.
 
-a. Introduction to Front-End Development
+**a. Introduction to Front-End Development**
 
 [Licenses & Certifications](https://www.coursera.org/account/accomplishments/certificate/VRWTN446XDHB)
 
-b. Programming with JavaScript
+**b. Programming with JavaScript**
 
 [Licenses & Certifications](https://www.coursera.org/account/accomplishments/certificate/7VKLXVJSA5QQ)
 
-c. Version Control
+**c. Version Control**
 
 [Licenses & Certifications](https://www.coursera.org/account/accomplishments/certificate/NMF6HRZY6RNH)
 
-d. HTML and CSS in Depth
+**d. HTML and CSS in Depth**
 
 [Licenses & Certifications](https://www.coursera.org/account/accomplishments/certificate/MPLB5ZKJBDSN)
 
-
-e. React Basics
+**e. React Basics**
 
 [Licenses & Certifications](https://www.coursera.org/account/accomplishments/certificate/QW7BGJ253CY6)
 
