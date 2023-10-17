@@ -18,13 +18,13 @@ h2 {
 .navbar {
     clear: both;
     color: #000;
-    padding: 0.75vw 0.75vw;
+    padding: 0.75vw 0.75vw; /*内部间距*/
     border-radius: 100px;
-    display: flex;
+    display: flex; /*flex弹性布局*/
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    justify-content: space-around;
+    flex-wrap: nowrap; /*空间不够 也不换行*/
+    justify-content: center; /*居中布局*/
+    justify-content: space-around; /*每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。*/
     background: black;
 }
 
@@ -65,16 +65,17 @@ main {
     width: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; /*空间不够 也不转行*/
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-around; /*每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。*/
 }
 
 .home .threeColumns {
-    display: inline-flex;
+    /*inline: 元素不会单独占据一行，只能设置水平方向的边距 */
+    display: inline-flex; /*内联元素 弹性布局*/
     width: 30%;
     height: 450px;
-    flex-direction: column;
+    flex-direction: column; /*改变主轴方向 为 纵轴*/
     padding: 12px;
     margin: 5px 5px;
     border-radius: 30px;
@@ -152,8 +153,8 @@ main {
 
 .book p{
     margin: 0px 2vw;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 20px; /*字体大小*/
+    line-height: 40px; /*文本之间的高度*/
     font-family: 'Kaushan Script', cursive;
 }
 
@@ -161,8 +162,8 @@ main {
 /* -------------footer----------------- */
 footer {
     display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
+    justify-content: space-between; /* 两端对齐，项目之间的间隔都相等。*/
+    margin-top: 1rem; /*外部边距*/
     background-color: gainsboro; /* 设置页脚背景颜色 */
     color: #fff; /* 设置文本颜色 */
     padding: 20px;
@@ -174,7 +175,7 @@ footer {
 }
 
 .footer-left img{
-    width: 40px;
+    width: 40px; /*左栏当中图标的大小*/
 }
 
 /* 右栏样式 */
@@ -185,21 +186,21 @@ footer {
 }
 
 .footer-right p{
-    color: #000;
+    color: #000; /*右栏字体的颜色*/
     font-family: 'Kaushan Script', cursive;
 }
 
 
 @media screen and (max-width:1110px) {
     .navbar {
-        justify-content: space-around;
-        flex-wrap: wrap;
+        justify-content: space-around; /*每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。*/
+        flex-wrap: wrap; /*用来定义如果一条轴线排不下，如何换行。 wrap: 排不下 就换行*/
     }
 }
 
 @media screen and (max-width:750px) {
     .navbar {
-        justify-content: space-around;
-        flex-wrap: wrap;
+        justify-content: space-around; /*每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。*/
+        flex-wrap: wrap; /*用来定义如果一条轴线排不下，如何换行。 wrap: 排不下 就换行*/
     }
 }
