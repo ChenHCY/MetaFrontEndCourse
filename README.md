@@ -13,7 +13,12 @@ c. Version Control
 
 [Licenses & Certifications](https://www.coursera.org/account/accomplishments/certificate/NMF6HRZY6RNH)
 
-d. React Basics
+d. HTML and CSS in Depth
+
+[Licenses & Certifications](https://www.coursera.org/account/accomplishments/certificate/NMF6HRZY6RNH)
+
+
+e. React Basics
 
 [Licenses & Certifications](https://www.coursera.org/account/accomplishments/certificate/QW7BGJ253CY6)
 
