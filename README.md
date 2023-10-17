@@ -1,4 +1,4 @@
-# Meta Front-End Developer Professional Certificate Course
+# Meta Front-End Developer Professional Course
 
 Launch your career as a front-end developer.
 
