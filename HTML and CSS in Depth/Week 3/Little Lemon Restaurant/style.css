@@ -1,0 +1,205 @@
+
+/* --------------global-----------------  */
+
+body {
+    background-color: rgba(255, 255, 255, 0.758);
+    padding: 0px;
+    margin: 0vw 3vw;
+}
+
+h2 {
+    font-size: 40px;
+    text-decoration: underline solid black;
+    text-shadow: 2px 2px whitesmoke;
+}
+
+
+/* --------------navbar-----------------  */
+.navbar {
+    clear: both;
+    color: #000;
+    padding: 0.75vw 0.75vw;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-content: space-around;
+    background: black;
+}
+
+.navbar a {
+    color: white;
+    display: block;
+    font-size: 35px;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+}
+
+main {
+    padding-bottom: 0px;
+}
+
+/* ----------header------------ */
+
+.logo {
+    margin: 0 auto;
+    padding: 2vh 4vw 5vw 4vw;
+}
+
+.logo img{
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------------discount--------------- */
+.discount img {
+    width: 100%;
+}
+/* -------------discount--------------- */
+
+
+/* ---------------Home--------------- */
+
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.home .threeColumns {
+    display: inline-flex;
+    width: 30%;
+    height: 450px;
+    flex-direction: column;
+    padding: 12px;
+    margin: 5px 5px;
+    border-radius: 30px;
+    background-color: bisque;
+}
+
+.threeColumns p {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.threeColumns h6 {
+    font-size: 25px;
+    padding: 0px 0px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.threeColumns img {
+    align-self: center;
+    padding: 0px 0px;
+    width: 95%;
+    height: 250px;
+}
+
+
+/* -------------about--------------- */
+.about {
+    background-color: bisque;
+    padding-bottom: 40px;
+}
+
+.about h2 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.about p {
+    margin: 0px 2vw;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+/* -------------------Menu-------------  */
+.menu{
+    width: 100%;
+    background-color: bisque;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.menu h2{
+    padding-top: 40px;
+}
+
+.menu p{
+    margin: 0px 2vw;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+/* -------------------Book-------------  */
+.book{
+    width: 100%;
+    background-color: bisque;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.book h2{
+    padding-top: 40px;
+}
+
+.book p{
+    margin: 0px 2vw;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+/* -------------footer----------------- */
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    background-color: gainsboro; /* 设置页脚背景颜色 */
+    color: #fff; /* 设置文本颜色 */
+    padding: 20px;
+}
+
+/* 左栏样式 */
+.footer-left {
+    flex: 1; /* 左栏占据可用空间的一半 */
+}
+
+.footer-left img{
+    width: 40px;
+}
+
+/* 右栏样式 */
+.footer-right {
+    flex: 1; /* 右栏占据可用空间的一半 */
+    text-align: right; /* 文本右对齐 */
+    border-top: #000 solid 2px;
+}
+
+.footer-right p{
+    color: #000;
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+@media screen and (max-width:1110px) {
+    .navbar {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .navbar {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
