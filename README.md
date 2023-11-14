@@ -28,3 +28,7 @@ Launch your career as a front-end developer.
 
 [Licenses & Certifications](https://www.coursera.org/account/accomplishments/certificate/QW7BGJ253CY6)
 
+**f. React Basics**
+
+[Licenses & Certifications](https://www.coursera.org/account/accomplishments/certificate/QW7BGJ253CY6)
+
