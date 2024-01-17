@@ -1,4 +1,4 @@
-/* longest Vacation Days
+/* longest Vacation Days Leetcode 1004的变形
 
 longest Vacation Days，给一个由'H','W'组成的数组，H代表holiday，W代表workday，给n个PTO days，请问最长连续的假期是多少天？
 
